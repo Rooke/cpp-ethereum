@@ -185,10 +185,6 @@ function(configureProject)
 		add_definitions(-DETH_GUI)
 	endif()
 
-	if (CPUID_FOUND)
-		add_definitions(-DETH_CPUID)
-	endif()
-
 	if (CURL_FOUND)
 		add_definitions(-DETH_CURL)
 	endif()
